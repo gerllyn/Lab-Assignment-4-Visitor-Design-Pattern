@@ -14,4 +14,3 @@ class ShippingCalculator implements ShippingCostVisitor {
         return sofa.getVolume() * 2 + sofa.getDistance() * 0.5; // Cost based on volume and distance
     }
 }
-
